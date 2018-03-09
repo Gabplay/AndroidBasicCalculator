@@ -72,9 +72,9 @@ public class MainActivity extends AppCompatActivity {
                 case "-":
                 case "X":
                 case "/":
+                    last_operation = btn_text;
                     if(!screen_text.equals("")){
                         count_operations++;
-                        last_operation = btn_text;
                         screen.setText("");
 
                         if(count_operations <= 1){
